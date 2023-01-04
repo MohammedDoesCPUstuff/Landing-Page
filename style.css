@@ -17,16 +17,20 @@ ul {
     gap: 16px;
 }
 
-img {
-    width: 150px;
-    height:150px;
-}
-
-.header-title-container {
+.header-content {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.row {
+    margin: 10%;
+}
+
+img {
+    width: 150px;
+    height:150px;
+    margin-right: 10%;
+}
 
 
