@@ -2,7 +2,7 @@
     background-color: #1f2937;
 }
 
-.header-left {
+.header-container {
     padding: 8px;
     display: flex;
     justify-content: space-between;
@@ -22,7 +22,7 @@ img {
     height:150px;
 }
 
-.title-container {
+.header-title-container {
     display: flex;
     justify-content: center;
     align-items: center;
