@@ -3,11 +3,12 @@
 }
 
 .header-container {
-    padding: 8px;
     display: flex;
     justify-content: space-between;
-    padding: 8px;
- 
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
 }
 
 ul {
@@ -15,6 +16,17 @@ ul {
     margin: 0;
     padding: 0;
     gap: 16px;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:link:hover {
+    transition-duration: 0.4s;
+    color:#3882f6;
 }
 
 .header-content {
@@ -25,12 +37,26 @@ ul {
 
 .row {
     margin: 10%;
+    color: white;
 }
 
 img {
-    width: 150px;
-    height:150px;
-    margin-right: 10%;
+    padding-right: 10%;
+    height: 150px;
+    width: 400px;
+}
+.Signup-button {
+    padding: 8px 30px;
+    border-radius: 12px;
+    border-color: #3882f6;
+    background-color: #3882f6;
+    color: white;
+    transition-duration: 0.4s;
 }
 
-
+.Signup-button:hover {
+    border-color: white;
+    background-color: white;
+    color: #3882f6;
+    transition-duration: 0.4s;
+}
